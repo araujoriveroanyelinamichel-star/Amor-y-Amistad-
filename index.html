@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Una página creada por Michell Araujo para celebrar el amor y la amistad.">
+  <title>Amor y Amistad 💕</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffb6c1, #ffe4e1);
+      color: #333;
+      text-align: center;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 30px 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      animation: fadeInDown 1.5s ease;
+    }
+
+    @keyframes fadeInDown {
+      from {opacity: 0; transform: translateY(-30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    .frases {
+      max-width: 700px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .frases h2 {
+      color: #d63384;
+      margin-bottom: 20px;
+    }
+
+    .frases p {
+      font-size: 1.1em;
+      line-height: 1.8;
+      color: #444;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      width: 250px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px 15px 0 0;
+    }
+
+    .card h3 {
+      margin: 15px 0;
+      color: #ff69b4;
+    }
+
+    .card p {
+      padding: 0 15px 20px;
+      color: #666;
+      font-size: 0.95em;
+    }
+
+    footer {
+      background: #ff69b4;
+      color: white;
+      padding: 25px 10px;
+      font-size: 0.9em;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>💖 Amor y Amistad 💖</h1>
+    <p>Una página creada con cariño por Michell Araujo</p>
+  </header>
+
+  <main>
+    <section class="frases">
+      <h2>El valor del amor y la amistad</h2>
+      <p>
+        El amor y la amistad son los lazos más hermosos que podemos compartir. 
+        Son esos sentimientos que iluminan los días grises, que nos hacen sonreír incluso en los momentos difíciles.  
+        Amar es comprender, respetar y cuidar; y la amistad es ese regalo sincero que no se compra ni se vende, solo se cultiva con el corazón.
+      </p>
+    </section>
+
+    <section>
+      <h2 style="color:#d63384; margin-bottom:20px;">Momentos especiales 🌹</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/8b/22/6e/8b226e584b93f02a4b879eafcd2ef74d.jpg" alt="Amor">
+          <h3>El amor verdadero</h3>
+          <p>El amor no se trata de encontrar a alguien perfecto, sino de aprender a ver la perfección en alguien imperfecto.</p>
+        </div>
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/3a/2b/17/3a2b174b1160971c60eaa2db86839483.jpg" alt="Amistad">
+          <h3>La verdadera amistad</h3>
+          <p>Un amigo es ese ser que llega cuando el mundo se va, y se queda cuando todos los demás se alejan.</p>
+        </div>
+        <div class="card">
+          <img src="https://i.pinimg.com/564x/aa/86/9b/aa869b1cb7b2ad2f637d19c667b35072.jpg" alt="Amor y Amistad">
+          <h3>Pequeños gestos</h3>
+          <p>Un mensaje, una sonrisa o un abrazo pueden cambiar el día de alguien. No subestimes el poder de los detalles.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Autor:</strong> Michell Araujo 💞</p>
+    <p><strong>Contacto:</strong> 3209851725 | 
+      <a href="mailto:michelrivero1205@gmail.com">michelrivero1205@gmail.com</a>
+    </p>
+    <p>© 2025 Amor y Amistad - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
